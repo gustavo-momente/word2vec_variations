@@ -3,6 +3,9 @@ word2vec_variations
 
 ** Work in progress ** 
 ===================
+- ~~Move files from old repository~~
+- ~~Improve in file usage description~~
+- Finish this README
 Moving and documentation files from the previous BitBucket repertoire
 
 
