@@ -17,4 +17,8 @@ So for the `Python` code the folloing dependencies are required:
 - Sklearn
 - NLTK
 
+One important point is that we need the WordNet corpus provided by NLTK, but as it seems, there is a ciclicity in the tree model in their version of WordNet, and this can make `word_net_tree.py` enter an infinite loop. Fortunately, this seems to be corrected in the newest WordNet release. So we recomend the following aproach: 
+1. Install NLTK
+2. Install the WordNet corpora using NLTK ([reference](http://www.nltk.org/data.html))
+3. Find where the corpora was installed and replace the files with the newest version from [WordNet site](http://wordnet.princeton.edu/wordnet/download/current-version/) version 3.1 has been show to be stable in our tests.
 
