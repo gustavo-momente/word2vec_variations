@@ -1,0 +1,43 @@
+capital-common-countries:
+ACCURACY TOP1: 77.67 %  (393 / 506)
+Total accuracy: 77.67 %   Semantic accuracy: 77.67 %   Syntactic accuracy: -nan % 
+capital-world:
+ACCURACY TOP1: 49.03 %  (2218 / 4524)
+Total accuracy: 51.91 %   Semantic accuracy: 51.91 %   Syntactic accuracy: -nan % 
+currency:
+ACCURACY TOP1: 14.23 %  (115 / 808)
+Total accuracy: 46.69 %   Semantic accuracy: 46.69 %   Syntactic accuracy: -nan % 
+city-in-state:
+ACCURACY TOP1: 42.16 %  (1040 / 2467)
+Total accuracy: 45.35 %   Semantic accuracy: 45.35 %   Syntactic accuracy: -nan % 
+family:
+ACCURACY TOP1: 60.28 %  (305 / 506)
+Total accuracy: 46.20 %   Semantic accuracy: 46.20 %   Syntactic accuracy: -nan % 
+gram1-adjective-to-adverb:
+ACCURACY TOP1: 15.83 %  (157 / 992)
+Total accuracy: 43.13 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 15.83 % 
+gram2-opposite:
+ACCURACY TOP1: 27.71 %  (225 / 812)
+Total accuracy: 41.95 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 21.18 % 
+gram3-comparative:
+ACCURACY TOP1: 57.36 %  (764 / 1332)
+Total accuracy: 43.67 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 36.54 % 
+gram4-superlative:
+ACCURACY TOP1: 21.77 %  (216 / 992)
+Total accuracy: 41.99 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 32.99 % 
+gram5-present-participle:
+ACCURACY TOP1: 34.75 %  (367 / 1056)
+Total accuracy: 41.44 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 33.35 % 
+gram6-nationality-adjective:
+ACCURACY TOP1: 77.74 %  (1243 / 1599)
+Total accuracy: 45.16 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 43.82 % 
+gram7-past-tense:
+ACCURACY TOP1: 31.86 %  (497 / 1560)
+Total accuracy: 43.95 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 41.58 % 
+gram8-plural:
+ACCURACY TOP1: 56.16 %  (748 / 1332)
+Total accuracy: 44.83 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 43.59 % 
+gram9-plural-verbs:
+ACCURACY TOP1: 35.52 %  (309 / 870)
+Total accuracy: 44.42 %   Semantic accuracy: 46.20 %   Syntactic accuracy: 42.92 % 
+Questions seen / total: 19356 19544   99.04 % 

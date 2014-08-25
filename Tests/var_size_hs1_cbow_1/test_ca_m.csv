@@ -1,0 +1,8 @@
+output;time;date;train;size;window;sample;hs;negative;threads;min-count;alpha;classes;debug;binary;cbow
+mean_0.bin;19:51:43;2014-07-15;../../word2vec/text9;100;5;0;1;0;16;10;0.025;0;2;1;1
+mean_1.bin;19:54:18;2014-07-15;../../word2vec/text9;200;5;0;1;0;16;10;0.025;0;2;1;1
+mean_2.bin;19:57:54;2014-07-15;../../word2vec/text9;300;5;0;1;0;16;10;0.025;0;2;1;1
+mean_3.bin;20:02:27;2014-07-15;../../word2vec/text9;400;5;0;1;0;16;10;0.025;0;2;1;1
+mean_4.bin;20:07:58;2014-07-15;../../word2vec/text9;500;5;0;1;0;16;10;0.025;0;2;1;1
+mean_5.bin;20:14:23;2014-07-15;../../word2vec/text9;600;5;0;1;0;16;10;0.025;0;2;1;1
+mean_6.bin;20:21:29;2014-07-15;../../word2vec/text9;700;5;0;1;0;16;10;0.025;0;2;1;1

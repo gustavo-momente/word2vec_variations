@@ -1,0 +1,62 @@
+\documentclass{report}
+\usepackage{amsmath, amssymb, array, stackengine, subfig}
+\usepackage[table]{xcolor}
+\usepackage[top=2in, bottom=1.5in, left=1cm, right=1cm]{geometry}
+\newcolumntype{C}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{0.036\textwidth}}
+\begin{document}
+\begin{tabular}{|C|C|C|C|C|C|C|C|C|C|C|C|C|C|C|}
+\hline
+\multicolumn{15}{|c|}{\textbf{Number of required components to represent each combination}} \\ \hline
+& \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} & \textbf{13} \\ \hline
+\textbf{0} & 18 & \cellcolor{red!40} 70 & \cellcolor{red!40} 54 & \cellcolor{red!40} 34 & \cellcolor{yellow!40} 32 & \cellcolor{yellow!40} 38 & \cellcolor{yellow!40} 36 & \cellcolor{red!40} 40 & \cellcolor{red!40} 37 & \cellcolor{yellow!40} 39 & \cellcolor{red!40} 39 & \cellcolor{red!40} 42 & \cellcolor{yellow!40} 42 & \cellcolor{red!40} 36 \\ \hline
+\textbf{1} & \cellcolor{red!40} 70 & 70 & \cellcolor{red!40} 89 & \cellcolor{red!40} 76 & \cellcolor{red!40} 77 & \cellcolor{red!40} 80 & \cellcolor{red!40} 79 & \cellcolor{red!40} 81 & \cellcolor{red!40} 79 & \cellcolor{red!40} 81 & \cellcolor{red!40} 79 & \cellcolor{red!40} 83 & \cellcolor{red!40} 83 & \cellcolor{red!40} 79 \\ \hline
+\textbf{2} & \cellcolor{red!40} 54 & \cellcolor{red!40} 89 & 42 & \cellcolor{red!40} 55 & \cellcolor{red!40} 53 & \cellcolor{red!40} 58 & \cellcolor{red!40} 56 & \cellcolor{red!40} 59 & \cellcolor{red!40} 57 & \cellcolor{red!40} 58 & \cellcolor{red!40} 59 & \cellcolor{red!40} 61 & \cellcolor{red!40} 60 & \cellcolor{red!40} 56 \\ \hline
+\textbf{3} & \cellcolor{red!40} 34 & \cellcolor{red!40} 76 & \cellcolor{red!40} 55 & 22 & \cellcolor{red!40} 35 & \cellcolor{red!40} 41 & \cellcolor{yellow!40} 39 & \cellcolor{red!40} 43 & \cellcolor{red!40} 41 & \cellcolor{red!40} 42 & \cellcolor{red!40} 43 & \cellcolor{red!40} 45 & \cellcolor{red!40} 43 & \cellcolor{red!40} 38 \\ \hline
+\textbf{4} & \cellcolor{yellow!40} 32 & \cellcolor{red!40} 77 & \cellcolor{red!40} 53 & \cellcolor{red!40} 35 & 17 & \cellcolor{yellow!40} 37 & \cellcolor{yellow!40} 35 & \cellcolor{red!40} 40 & \cellcolor{red!40} 36 & \cellcolor{yellow!40} 38 & \cellcolor{red!40} 41 & \cellcolor{red!40} 41 & \cellcolor{yellow!40} 41 & \cellcolor{red!40} 35 \\ \hline
+\textbf{5} & \cellcolor{yellow!40} 38 & \cellcolor{red!40} 80 & \cellcolor{red!40} 58 & \cellcolor{red!40} 41 & \cellcolor{yellow!40} 37 & 24 & \cellcolor{red!40} 40 & \cellcolor{red!40} 45 & \cellcolor{red!40} 42 & \cellcolor{red!40} 44 & \cellcolor{red!40} 45 & \cellcolor{red!40} 47 & \cellcolor{yellow!40} 47 & \cellcolor{red!40} 40 \\ \hline
+\textbf{6} & \cellcolor{yellow!40} 36 & \cellcolor{red!40} 79 & \cellcolor{red!40} 56 & \cellcolor{yellow!40} 39 & \cellcolor{yellow!40} 35 & \cellcolor{red!40} 40 & 21 & \cellcolor{red!40} 43 & \cellcolor{red!40} 40 & \cellcolor{yellow!40} 42 & \cellcolor{red!40} 44 & \cellcolor{red!40} 45 & \cellcolor{yellow!40} 45 & \cellcolor{yellow!40} 39 \\ \hline
+\textbf{7} & \cellcolor{red!40} 40 & \cellcolor{red!40} 81 & \cellcolor{red!40} 59 & \cellcolor{red!40} 43 & \cellcolor{red!40} 40 & \cellcolor{red!40} 45 & \cellcolor{red!40} 43 & 28 & \cellcolor{red!40} 40 & \cellcolor{red!40} 46 & \cellcolor{red!40} 48 & \cellcolor{red!40} 49 & \cellcolor{red!40} 48 & \cellcolor{red!40} 43 \\ \hline
+\textbf{8} & \cellcolor{red!40} 37 & \cellcolor{red!40} 79 & \cellcolor{red!40} 57 & \cellcolor{red!40} 41 & \cellcolor{red!40} 36 & \cellcolor{red!40} 42 & \cellcolor{red!40} 40 & \cellcolor{red!40} 40 & 24 & \cellcolor{red!40} 43 & \cellcolor{red!40} 44 & \cellcolor{red!40} 46 & \cellcolor{red!40} 45 & \cellcolor{red!40} 40 \\ \hline
+\textbf{9} & \cellcolor{yellow!40} 39 & \cellcolor{red!40} 81 & \cellcolor{red!40} 58 & \cellcolor{red!40} 42 & \cellcolor{yellow!40} 38 & \cellcolor{red!40} 44 & \cellcolor{yellow!40} 42 & \cellcolor{red!40} 46 & \cellcolor{red!40} 43 & 25 & \cellcolor{red!40} 47 & \cellcolor{red!40} 41 & \cellcolor{red!40} 47 & \cellcolor{red!40} 40 \\ \hline
+\textbf{10} & \cellcolor{red!40} 39 & \cellcolor{red!40} 79 & \cellcolor{red!40} 59 & \cellcolor{red!40} 43 & \cellcolor{red!40} 41 & \cellcolor{red!40} 45 & \cellcolor{red!40} 44 & \cellcolor{red!40} 48 & \cellcolor{red!40} 44 & \cellcolor{red!40} 47 & 29 & \cellcolor{red!40} 49 & \cellcolor{red!40} 49 & \cellcolor{red!40} 44 \\ \hline
+\textbf{11} & \cellcolor{red!40} 42 & \cellcolor{red!40} 83 & \cellcolor{red!40} 61 & \cellcolor{red!40} 45 & \cellcolor{red!40} 41 & \cellcolor{red!40} 47 & \cellcolor{red!40} 45 & \cellcolor{red!40} 49 & \cellcolor{red!40} 46 & \cellcolor{red!40} 41 & \cellcolor{red!40} 49 & 29 & \cellcolor{red!40} 51 & \cellcolor{red!40} 45 \\ \hline
+\textbf{12} & \cellcolor{yellow!40} 42 & \cellcolor{red!40} 83 & \cellcolor{red!40} 60 & \cellcolor{red!40} 43 & \cellcolor{yellow!40} 41 & \cellcolor{yellow!40} 47 & \cellcolor{yellow!40} 45 & \cellcolor{red!40} 48 & \cellcolor{red!40} 45 & \cellcolor{red!40} 47 & \cellcolor{red!40} 49 & \cellcolor{red!40} 51 & 28 & \cellcolor{red!40} 44 \\ \hline
+\textbf{13} & \cellcolor{red!40} 36 & \cellcolor{red!40} 79 & \cellcolor{red!40} 56 & \cellcolor{red!40} 38 & \cellcolor{red!40} 35 & \cellcolor{red!40} 40 & \cellcolor{yellow!40} 39 & \cellcolor{red!40} 43 & \cellcolor{red!40} 40 & \cellcolor{red!40} 40 & \cellcolor{red!40} 44 & \cellcolor{red!40} 45 & \cellcolor{red!40} 44 & 22 \\ \hline
+\end{tabular}
+\begin{figure}[h]
+\belowbaseline[0pt]{
+\subfloat{
+\begin{tabular}{|c|l|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Label}} \\ \hline
+\textbf{0} & capital-common-countries \\ \hline
+\textbf{1} & capital-world \\ \hline
+\textbf{2} & city-in-state \\ \hline
+\textbf{3} & currency \\ \hline
+\textbf{4} & family \\ \hline
+\textbf{5} & gram1-adjective-to-adverb \\ \hline
+\textbf{6} & gram2-opposite \\ \hline
+\textbf{7} & gram3-comparative \\ \hline
+\textbf{8} & gram4-superlative \\ \hline
+\textbf{9} & gram5-present-participle \\ \hline
+\textbf{10} & gram6-nationality-adjective \\ \hline
+\textbf{11} & gram7-past-tense \\ \hline
+\textbf{12} & gram8-plural \\ \hline
+\textbf{13} & gram9-plural-verbs \\ \hline
+\end{tabular}
+}}
+\belowbaseline[0pt]{
+\subfloat{
+\begin{tabular}{|C|l|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Color Meaning}} \\ \hline
+ & Class alone  \\ \hline
+\cellcolor{green!40}& $Combination = Sum$ \\ \hline
+\cellcolor{yellow!40}& $0.9 Sum < Combination < 1.1 Sum$ \\ \hline
+\cellcolor{red!40}& $Combination \leq 0.9 Sum$ \\ \hline
+\cellcolor{orange!40}& $Combination \geq  1.1 Sum$ \\ \hline
+\end{tabular}
+}}
+\end{figure}
+
+\end{document}
