@@ -6,7 +6,6 @@ word2vec_variations
 - ~~Move files from old repository~~
 - ~~Improve in file usage description~~
 - Finish this README
-Moving and documentation files from the previous BitBucket repertoire
 
 
 ## **Dependencies**
