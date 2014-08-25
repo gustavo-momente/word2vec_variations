@@ -7,7 +7,8 @@ import itertools
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Create test files based on the fb15k data')
+    parser = argparse.ArgumentParser(description='Creates a pseudo-compute-accuracy test file based on cleared '
+                                                 'fb15k data')
     parser.add_argument('-i', '-input', metavar='<file>', required=True,
                         help='Input file in FB15k format')
     # parser.add_argument('-threads', metavar='<int>', nargs=1, default=[8], type=int,

@@ -11,8 +11,9 @@ import math
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Generate configurations to word2vec,run it and save the binaries,'
-                                                 'then evaluate the binaries and ')
+    parser = argparse.ArgumentParser(description='Generate configurations to word2vec, run the learning processes for'
+                                                 ' them and submit the resulting representations to testing. The result'
+                                                 ' are logs from the compute-accuracy or SE-Test1.py execution.')
     parser.add_argument('-w2v', metavar='<word2vec_exec>', default='./word2vec/word2vec',
                         help='Path to the word2vec executable')
     parser.add_argument('-train', metavar='<train_file>', default='./word2vec/text8',
@@ -304,7 +305,6 @@ def main():
                                         if se_exec is None:
                                             if cases+1 % threads == 0:
                                                 run_dics(args['rd'], ca, test, args['folder'], threads, log_folder, 0)
-                                                # run_dics(args['rd'], ca, test, args['folder'], threads, log_folder+"/30000", 30000)
                                                 remove_files(args['folder'])
                                         else:
                                             run_se_test1(se_exec, t_output, questions, answers, args['folder']+'/SE-2012'

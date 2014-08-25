@@ -19,7 +19,8 @@ from numpy.ma import masked_array
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='PCA analysis of success cases')
+    parser = argparse.ArgumentParser(description='PCA analysis and Rank analysis of all cases or only '
+                                                 'the successful cases.\n For examples check ./Tests/var_*/run_all.sh')
     parser.add_argument('-nocaw', metavar='[<int>]', nargs='?', default=0, type=int, const=1,
                         help='If present all the cases in the <test_file> will be used in the PCA analysis')
     parser.add_argument('-caw', metavar='<compute-accuracy-w_exec>', default='./word2vec/compute-accuracy-w',

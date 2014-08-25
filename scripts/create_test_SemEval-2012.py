@@ -10,7 +10,8 @@ import itertools
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Create test files based on SemEval-2012 Task2 classes')
+    parser = argparse.ArgumentParser(description='Creates a pseudo-compute-accuracy test file '
+                                                 'based on SemEval-2012 Task2 classes')
     parser.add_argument('-folder', metavar='<folder>', default='./SE2012/Training/Phase1Answers',
                         help='Folder where all the SemEval answers are')
     # parser.add_argument('-threads', metavar='<int>', nargs=1, default=[8], type=int,

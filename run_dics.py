@@ -10,7 +10,8 @@ import sys
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Generate configurations to word2vec,run it and save the binaries')
+    parser = argparse.ArgumentParser(description='Run the compute-accuracy test over dictionaries created from word2vec.'
+                                                 '\nThis file is out-dated, using genereate_logs.py is preferable.')
     parser.add_argument('-ca', metavar='<compute-accuracy_exec>', default='./word2vec/compute-accuracy',
                         help='Path to the compute-accuracy executable')
     parser.add_argument('-test', metavar='<train_file>', default='./word2vec/questions-words.txt',

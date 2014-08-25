@@ -9,7 +9,8 @@ import numpy as np
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Average results from rep_dist.py')
+    parser = argparse.ArgumentParser(description='Average  results from many rep_dist.py runs. For usage example,'
+                                                 ' please, check ./Tests/start_config/ca_nosub/mean.sh')
 
     parser.add_argument('-f', '-folder', metavar='<folder>', required=True,
                         help='Folder with all the draws to be averaged')

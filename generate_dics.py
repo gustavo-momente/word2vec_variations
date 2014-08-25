@@ -10,7 +10,9 @@ import numpy as np
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Generate configurations to word2vec,run it and save the binaries')
+    parser = argparse.ArgumentParser(description='Generate configurations to word2vec, run them and save the binaries. '
+                                                 'It uses the the same parameters as word2vec, but allowing to make '
+                                                 'them vary in a given interval.')
     parser.add_argument('-w2v', metavar='<word2vec_exec>', default='./word2vec/word2vec',
                         help='Path to the word2vec executable')
     parser.add_argument('-train', metavar='<train_file>', default='./word2vec/text8',

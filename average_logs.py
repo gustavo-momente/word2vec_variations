@@ -9,7 +9,8 @@ import numpy as np
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Average log results from many files with the same run configuration')
+    parser = argparse.ArgumentParser(description='Average log results from many files with the same run configuration'
+                                                 'for examples check ./Tests/var*/run_all.sh')
 
     parser.add_argument('-se', metavar='<int>', nargs='?', default=0, const=1, type=int,
                         help='Must be present to use logs generated using "SE-Test1.py" (1 : On, else: Off,'

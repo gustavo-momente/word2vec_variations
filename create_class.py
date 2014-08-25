@@ -8,7 +8,9 @@ import re
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Generates class data from test file')
+    parser = argparse.ArgumentParser(description='Generates class data from test file, this data will be used later'
+                                                 ' to generate starting configurations for word2vec.'
+                                                 ' For usage examples check ./Tests/ca_with_start/*.sh')
     parser.add_argument('-i', '-in', metavar='<file>',
                         help='compute-accuracy test file from where classes will be extracted')
     parser.add_argument('-o', '-output', metavar='<file>', default='class_data.txt',

@@ -8,7 +8,8 @@ import argparse
 
 def create_parsers():
     #parser for the main program
-    parser = argparse.ArgumentParser(description='Merges class data from files')
+    parser = argparse.ArgumentParser(description='Merges class data (from create_class, for example) from multiple'
+                                                 ' files to a single class data file.')
     parser.add_argument('-i', '-in', metavar='<file>', nargs='*',
                         help='Class files to be merged')
     parser.add_argument('-o', '-output', metavar='<file>', default='merge_class_data.txt',

@@ -10,7 +10,8 @@ import numpy as np
 def create_parsers():
     #parser for the main program
     parser = argparse.ArgumentParser(description='Calculate distance between representations, given 2 dictionaries'
-                                                 'and a file with class data')
+                                                 'and a file with class data. For an example check '
+                                                 './Tests/start_config/*.sh')
     parser.add_argument('-sn', metavar='<file>', required=True,
                         help='Dictionary with word representations before w2v training')
     parser.add_argument('-en', metavar='<file>', required=True,
