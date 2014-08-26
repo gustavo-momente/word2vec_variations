@@ -53,3 +53,8 @@ Moreover, the files in the SE2012 are from the [SemEval-2012 Task 2 challenge](h
 Furthermore, a corpus is needed for learning, the algorithm proposed by _Mikolov et al._ works better with large corpora. There is a small corpus called `text8` that can be downloaded [here](ttp://mattmahoney.net/dc/text8.zip). However, as you can find, if you check the `Tests` folder we didn't use this one. Our choice was for a larger corpus, that we called `text9`, as the other one, text data is extracted from Wikipedia. Truth be told, `text8` is a cropped version of `text9`. Therefore, instruction to download and clean Wikipedia articles is described [here](http://mattmahoney.net/dc/textdata.html) where `text9` is called `fil9` and the raw Wikipedia data `enwik9`.
  
 Finally, in the `Scripts` folder, there are some scripts with the words _fb_ or _freebase_  these are related to the freebase triplets kwnown as **FB15k**, more information can be found [in their site](https://www.hds.utc.fr/everest/doku.php?id=en:transe).
+
+## **License**
+----------------------
+
+License information can be found in the `LICENSE` file. Moreover, all the dependencies have their own license description.
