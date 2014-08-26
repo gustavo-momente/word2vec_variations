@@ -48,7 +48,7 @@ One important point is that we need the WordNet corpus provided by NLTK, but as 
 2. Install the WordNet corpora using NLTK ([reference](http://www.nltk.org/data.html));
 3. Find where the corpora was installed and replace the files with the newest version from [WordNet site](http://wordnet.princeton.edu/wordnet/download/current-version/), version 3.1 has been shown to be stable in our tests.
  
-Moreover, the files in the SE2012 are from the [SemEval-2012 Task 2 challenge](https://sites.google.com/site/semeval2012task2/download) and we call most of their `Perl` scripts from within `SE_Test1.py` so a `Perl` interpreter is needed and the `Statistics::RankCorrelation` too.
+Moreover, the files in the SE2012 are from the [SemEval-2012 Task 2 challenge](https://sites.google.com/site/semeval2012task2/download) and we call most of their `Perl` scripts from within `SE_Test1.py` so a `Perl` interpreter is needed and the `Statistics::RankCorrelation` module too.
  
 Furthermore, a corpus is needed for learning, the algorithm proposed by _Mikolov et al._ works better with large corpora. There is a small corpus called `text8` that can be downloaded [here](ttp://mattmahoney.net/dc/text8.zip). However, as you can find, if you check the `Tests` folder we didn't use this one. Our choice was for a larger corpus, that we called `text9`, as the other one, text data is extracted from Wikipedia. Truth be told, `text8` is a cropped version of `text9`. Therefore, instruction to download and clean Wikipedia articles is described [here](http://mattmahoney.net/dc/textdata.html) where `text9` is called `fil9` and the raw Wikipedia data `enwik9`.
  
